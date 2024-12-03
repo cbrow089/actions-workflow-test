@@ -1,0 +1,9 @@
+# Name of workflow
+name: action-test
+
+#Trigger workflow on all pull requests
+on:
+  pull_request:
+    branches:
+      - develop
+      - staging
